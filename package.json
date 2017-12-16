@@ -2,6 +2,17 @@
   "name": "vdo-lokan",
   "version": "0.0.0",
   "license": "BSD-3-Clause",
+  "description": "Serve video files from a directory. No database.",
+  "homepage": "https://github.com/spremi/vdo-lokan",
+  "author": {
+    "name": "Sanjeev Premi",
+    "email": "spremi@ymail.com",
+    "url": "https://github.com/spremi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spremi/vdo-lokan.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
