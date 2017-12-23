@@ -1,3 +1,21 @@
-<p>
-  header works!
-</p>
+<mat-toolbar color="primary">
+  <button mat-icon-button
+    routerLink="/">
+    <mat-icon class="mat-24" svgIcon="home" aria-label="Home"></mat-icon>
+  </button>
+  <span>Vdo Lokan</span>
+
+  <span class="h-spacer"></span>
+
+  <button mat-icon-button
+    routerLink="/settings"
+    routerLinkActive="active">
+    <mat-icon class="mat-24" svgIcon="settings" aria-label="Settings"></mat-icon>
+  </button>
+  <button mat-icon-button
+    routerLink="/user"
+    routerLinkActive="active">
+    <mat-icon class="mat-24"
+      [svgIcon]="userVerified ? 'verified_user' : 'person'"></mat-icon>
+  </button>
+</mat-toolbar>

@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  /**
+   * Is user verified?
+   */
+  userVerified = false;
+
   constructor() { }
 
   ngOnInit() {
   }
-
 }
