@@ -12,4 +12,9 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
   }
 
+  licenseInfo() {
+    //
+    // TODO: Implement later
+    //
+  }
 }
