@@ -22,6 +22,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { IconService } from './icon.service';
+
 @NgModule({
   imports: [
     BrowserAnimationsModule,
@@ -79,7 +81,9 @@ export class MaterialModule {
   static forRoot(): ModuleWithProviders {
     return {
       ngModule: MaterialModule,
-      providers: []
+      providers: [
+        IconService,
+      ]
     };
   }
 }
