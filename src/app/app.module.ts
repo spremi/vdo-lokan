@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { IconService } from './modules/material/icon.service';
 import { MaterialModule } from './modules/material/material.module';
+import { SettingsComponent } from './routes/settings/settings.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { MaterialModule } from './modules/material/material.module';
     HeaderComponent,
     FooterComponent,
     BodyComponent,
+    SettingsComponent,
   ],
   imports: [
     BrowserModule,
