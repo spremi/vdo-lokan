@@ -15,6 +15,7 @@ import { HomeComponent } from './routes/home/home.component';
 import { SettingsComponent } from './routes/settings/settings.component';
 import { LoginComponent } from './routes/user/login/login.component';
 import { LogoffComponent } from './routes/user/logoff/logoff.component';
+import { RegisterComponent } from './routes/user/register/register.component';
 import { UserComponent } from './routes/user/user.component';
 
 
@@ -31,6 +32,7 @@ import { UserComponent } from './routes/user/user.component';
     HomeComponent,
     LoginComponent,
     LogoffComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
