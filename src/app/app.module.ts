@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { IconService } from './modules/material/icon.service';
 import { MaterialModule } from './modules/material/material.module';
 import { SettingsComponent } from './routes/settings/settings.component';
+import { UserComponent } from './routes/user/user.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { SettingsComponent } from './routes/settings/settings.component';
     FooterComponent,
     BodyComponent,
     SettingsComponent,
+    UserComponent,
   ],
   imports: [
     BrowserModule,
