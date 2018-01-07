@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { IconService } from './modules/material/icon.service';
 import { MaterialModule } from './modules/material/material.module';
+import { AboutComponent } from './routes/about/about.component';
 import { E404Component } from './routes/e404/e404.component';
 import { SettingsComponent } from './routes/settings/settings.component';
 import { UserComponent } from './routes/user/user.component';
@@ -23,6 +24,7 @@ import { UserComponent } from './routes/user/user.component';
     SettingsComponent,
     UserComponent,
     E404Component,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
