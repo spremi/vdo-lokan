@@ -44,6 +44,19 @@ app.use(cookieParser());
 app.use(express.static(path.join(config.base , 'dist')));
 
 //
+// Allow Cross-Origin (during development only)
+// Required to accept requests from port 4200 - used (default) by 'ng serve'
+//
+if (config.env === 'development') {
+  app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "http://localhost:4200");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+
+    next();
+  });
+}
+
+//
 // Set routes
 //
 app.use ('/api', require('./api'));
